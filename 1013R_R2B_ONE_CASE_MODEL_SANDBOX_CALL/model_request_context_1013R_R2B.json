@@ -1,0 +1,362 @@
+{
+  "stage": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL",
+  "authorization_phrase_seen": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL_AUTHORIZED",
+  "single_case_only": true,
+  "provider_call_count_limit": 1,
+  "retry_allowed": false,
+  "selected_case_id": "1013R_R1_case_color_contrast_harmony",
+  "selected_topic": "色彩的对比与和谐",
+  "input_source": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R1_FIELD_PATCH_AND_PROMPT_PATCH_STATIC_FIXTURE\\field_patch_static_fixture_1013R_R1.json",
+  "r1_zip_sha256": "5C33BB13777F8BD1F598ADE3517FFACAF449FE19C7B88B119B12A5AD1384B118",
+  "selected_fixture": {
+    "case_id": "1013R_R1_case_color_contrast_harmony",
+    "source_case_id": "1013R_R0_case_color_contrast_harmony",
+    "topic": "色彩的对比与和谐",
+    "lesson_or_unit_type": "lesson_or_unit",
+    "fixture_status": "static_handwritten_fixture",
+    "source_boundary": {
+      "source_status": "test_case_fixture",
+      "official_claim_allowed": false,
+      "teacher_confirmation_required": true,
+      "external_sample_required_fields": false
+    },
+    "r1_fixture_output": {
+      "art_design_spine_candidate": {
+        "big_idea": "色彩关系能改变画面的秩序、情绪和观看重点。",
+        "basic_question": "怎样用少量颜色让画面既有重点又不混乱？",
+        "unit_task_chain": [
+          "说出色彩感觉",
+          "选择主色",
+          "比较对比与和谐",
+          "完成色彩小样并说明选择"
+        ],
+        "performance_task": "完成一张对比或和谐色彩小作品，并说明主色与辅助色的关系。",
+        "exhibition_or_share_endpoint": "同桌互看色彩小样，说出画面最先看到的颜色。",
+        "assessment_evidence": [
+          "试色纸",
+          "色彩小样",
+          "选色说明"
+        ]
+      },
+      "unit_design_candidate": {
+        "lesson_chain": [
+          {
+            "lesson": "色彩的对比与和谐",
+            "unit_role": "观察、比较、应用"
+          }
+        ],
+        "student_starting_point": "学生喜欢多用颜色，但不容易控制主次。",
+        "materials_and_tools_overview": [
+          "色卡",
+          "试色纸",
+          "水彩笔",
+          "油画棒"
+        ],
+        "technique_chain_overview": [
+          "感受",
+          "选主色",
+          "配辅助色",
+          "控制面积",
+          "局部调整"
+        ],
+        "reference_case_ids": [
+          "color_relation_fixture"
+        ]
+      },
+      "lesson_design_candidate": {
+        "unit_role": "帮助学生把感觉词转化为色彩选择。",
+        "connects_from_previous_lesson": "若为单课，承接学生已有生活色彩经验。",
+        "prepares_for_next_lesson": "为后续图案、设计或绘画创作提供配色方法。",
+        "student_output_this_lesson": "一张对比或和谐色彩小样。",
+        "method_or_technique_focus": "主色控制、辅助色选择、面积对比。",
+        "learning_sheet_need": "可选：色彩感觉词与主色选择记录。",
+        "courseware_screen_need": "需要色彩对比、和谐、错例比较屏。",
+        "rubric_link": "主色关系清楚 + 画面不混乱 + 能说明选择"
+      },
+      "teaching_process_action_blocks": [
+        {
+          "phase_name": "说感觉找颜色",
+          "phase_goal": "把生活感觉转成色彩选择。",
+          "teacher_action": "出示冷静、热闹、柔和三组词，请学生匹配色卡。",
+          "student_action": "选择一个感觉词和两张色卡。",
+          "teacher_question": "哪一种颜色先跳出来？为什么？",
+          "materials_or_tools": [
+            "色卡",
+            "投屏图片"
+          ],
+          "technique_step": "先定主色再找辅助色。",
+          "visual_criteria": "主色一眼能被看见。",
+          "observable_evidence": "学生能说出主色选择理由。",
+          "time_hint": "6分钟"
+        },
+        {
+          "phase_name": "比较对比与和谐",
+          "phase_goal": "看见色彩关系的差异。",
+          "teacher_action": "在同一图形中分别示范强对比和近似和谐的配色。",
+          "student_action": "判断哪一组更醒目，哪一组更安静。",
+          "teacher_question": "如果颜色都很抢，画面会发生什么？",
+          "demo_cue": "面积控制示范",
+          "materials_or_tools": [
+            "示范图形",
+            "彩笔"
+          ],
+          "technique_step": "主色大面积，强调色小面积。",
+          "visual_criteria": "画面有主次，不是每个颜色都同样抢。",
+          "student_choice_point": "选择对比路线或和谐路线。",
+          "screen_or_board_ref": "color_mistake_comparison_screen",
+          "observable_evidence": "学生能指出一处需要减少或增强的颜色。",
+          "time_hint": "10分钟"
+        },
+        {
+          "phase_name": "完成色彩小样",
+          "phase_goal": "用方法完成可说明的作品。",
+          "teacher_action": "巡看学生主色是否清楚，提示控制颜色数量。",
+          "student_action": "完成色彩小样并写一句配色说明。",
+          "teacher_question": "你希望别人先看到哪里？",
+          "materials_or_tools": [
+            "小样纸",
+            "彩笔",
+            "说明贴"
+          ],
+          "technique_step": "试色、铺主色、加辅助色、局部调整。",
+          "visual_criteria": "不超过三类主要颜色，画面重点清楚。",
+          "observable_evidence": "作品旁有主色和辅助色说明。",
+          "time_hint": "18分钟"
+        }
+      ],
+      "art_demo_block": {
+        "demo_purpose": "解决学生颜色越加越多、画面主次不清的问题。",
+        "student_gap": "学生会选喜欢的颜色，但不会控制主色和面积。",
+        "tools_and_materials": [
+          "色卡",
+          "试色纸",
+          "彩笔"
+        ],
+        "teacher_demo_actions": [
+          "选择一个感觉词",
+          "确定一个主色",
+          "加入一个辅助色",
+          "用小面积强调色制造重点"
+        ],
+        "student_observation_tasks": [
+          "找主色",
+          "找辅助色",
+          "判断哪个颜色面积太大"
+        ],
+        "technique_steps": [
+          "定感觉",
+          "选主色",
+          "配辅助色",
+          "控面积",
+          "看远一点再调整"
+        ],
+        "process_mantra": "先主色，再点亮。",
+        "common_mistakes_and_fixes": [
+          {
+            "mistake": "颜色太多",
+            "fix": "减少一类颜色，保留主色"
+          },
+          {
+            "mistake": "强调色面积太大",
+            "fix": "只放在需要被看见的位置"
+          }
+        ],
+        "peer_example_scaffold": "用两张同龄小样比较主次清楚与颜色过乱。",
+        "anti_copy_guidance": "可以借鉴配色关系，不复制同伴图案。",
+        "student_choice_paths": [
+          "强对比",
+          "近似和谐",
+          "冷暖主次"
+        ],
+        "pre_creation_check": [
+          "我的主色是什么",
+          "我想让别人先看哪里",
+          "我最多使用几类主要颜色"
+        ],
+        "courseware_screen_mapping": [
+          "feeling_word_color_screen",
+          "main_color_choice_screen",
+          "mistake_comparison_screen"
+        ],
+        "display_preview_mapping": [
+          "先主色，再点亮",
+          "重点在哪里"
+        ],
+        "assessment_link": "能说明主色关系，画面重点清楚，能根据反馈调整。"
+      },
+      "assessment_design_candidate": {
+        "rubric_dimensions": [
+          "主色关系",
+          "色彩秩序",
+          "调整痕迹",
+          "表达说明"
+        ],
+        "evidence_type": [
+          "work_evidence",
+          "process_evidence",
+          "self_review"
+        ],
+        "evidence_source": [
+          "试色纸",
+          "作品小样",
+          "一句配色说明"
+        ],
+        "teacher_observation_note": "观察学生是否能减少颜色而不是不断加色。",
+        "self_peer_teacher_review": {
+          "self_review": "我的主色是什么？",
+          "peer_review": "我第一眼看到了哪里？",
+          "teacher_review": "关注主次和调整。"
+        },
+        "formal_scoring": false
+      },
+      "teacher_confirmation_items": [
+        "年级和材料限制需确认",
+        "是否要求对比与和谐都完成需确认"
+      ]
+    }
+  },
+  "prompt_context": {
+    "system_prompt": "你是小教，面向小学美术教师的备课助手。本次是 1013R_R2B 单案例模型沙盒，只生成候选，不写入正式备课本。回答必须是严格 JSON object，不要 Markdown，不要解释。不得包含 formal apply、R36 修改、runtime 连接、数据库/记忆/向量/飞书写入意图。",
+    "user_prompt": "请基于下面的 R1 静态目标形态，只为一个课例生成模型沙盒候选。\n课例：色彩的对比与和谐。\n\n硬要求：\n1. 只输出 JSON object。\n2. 不写完整教案正文，不写 formal apply。\n3. teacher_demonstration 不得是一整段散文；示范必须拆成 student_gap / teacher_demo_actions / technique_steps / visual_criteria / mistake_fix / peer_scaffold。\n4. 教师阅读结构要用清楚小标题或编号结构。\n5. 课堂话术放入 classroom_script_reference，不要混到课件屏。\n6. 课件必须输出 screen seed：screen_id / screen_type / visual_payload / task_text。\n7. 大屏短文本每条不超过 40 个中文字符。\n8. 评价必须有作品证据 work_evidence 和过程证据 process_evidence，formal_scoring=false。\n9. 保留 teacher_confirmation_items，不要把待确认信息写成事实。\n\nR1 目标形态如下：\n{\n  \"art_design_spine_candidate\": {\n    \"big_idea\": \"色彩关系能改变画面的秩序、情绪和观看重点。\",\n    \"basic_question\": \"怎样用少量颜色让画面既有重点又不混乱？\",\n    \"unit_task_chain\": [\n      \"说出色彩感觉\",\n      \"选择主色\",\n      \"比较对比与和谐\",\n      \"完成色彩小样并说明选择\"\n    ],\n    \"performance_task\": \"完成一张对比或和谐色彩小作品，并说明主色与辅助色的关系。\",\n    \"exhibition_or_share_endpoint\": \"同桌互看色彩小样，说出画面最先看到的颜色。\",\n    \"assessment_evidence\": [\n      \"试色纸\",\n      \"色彩小样\",\n      \"选色说明\"\n    ]\n  },\n  \"unit_design_candidate\": {\n    \"lesson_chain\": [\n      {\n        \"lesson\": \"色彩的对比与和谐\",\n        \"unit_role\": \"观察、比较、应用\"\n      }\n    ],\n    \"student_starting_point\": \"学生喜欢多用颜色，但不容易控制主次。\",\n    \"materials_and_tools_overview\": [\n      \"色卡\",\n      \"试色纸\",\n      \"水彩笔\",\n      \"油画棒\"\n    ],\n    \"technique_chain_overview\": [\n      \"感受\",\n      \"选主色\",\n      \"配辅助色\",\n      \"控制面积\",\n      \"局部调整\"\n    ],\n    \"reference_case_ids\": [\n      \"color_relation_fixture\"\n    ]\n  },\n  \"lesson_design_candidate\": {\n    \"unit_role\": \"帮助学生把感觉词转化为色彩选择。\",\n    \"connects_from_previous_lesson\": \"若为单课，承接学生已有生活色彩经验。\",\n    \"prepares_for_next_lesson\": \"为后续图案、设计或绘画创作提供配色方法。\",\n    \"student_output_this_lesson\": \"一张对比或和谐色彩小样。\",\n    \"method_or_technique_focus\": \"主色控制、辅助色选择、面积对比。\",\n    \"learning_sheet_need\": \"可选：色彩感觉词与主色选择记录。\",\n    \"courseware_screen_need\": \"需要色彩对比、和谐、错例比较屏。\",\n    \"rubric_link\": \"主色关系清楚 + 画面不混乱 + 能说明选择\"\n  },\n  \"teaching_process_action_blocks\": [\n    {\n      \"phase_name\": \"说感觉找颜色\",\n      \"phase_goal\": \"把生活感觉转成色彩选择。\",\n      \"teacher_action\": \"出示冷静、热闹、柔和三组词，请学生匹配色卡。\",\n      \"student_action\": \"选择一个感觉词和两张色卡。\",\n      \"teacher_question\": \"哪一种颜色先跳出来？为什么？\",\n      \"materials_or_tools\": [\n        \"色卡\",\n        \"投屏图片\"\n      ],\n      \"technique_step\": \"先定主色再找辅助色。\",\n      \"visual_criteria\": \"主色一眼能被看见。\",\n      \"observable_evidence\": \"学生能说出主色选择理由。\",\n      \"time_hint\": \"6分钟\"\n    },\n    {\n      \"phase_name\": \"比较对比与和谐\",\n      \"phase_goal\": \"看见色彩关系的差异。\",\n      \"teacher_action\": \"在同一图形中分别示范强对比和近似和谐的配色。\",\n      \"student_action\": \"判断哪一组更醒目，哪一组更安静。\",\n      \"teacher_question\": \"如果颜色都很抢，画面会发生什么？\",\n      \"demo_cue\": \"面积控制示范\",\n      \"materials_or_tools\": [\n        \"示范图形\",\n        \"彩笔\"\n      ],\n      \"technique_step\": \"主色大面积，强调色小面积。\",\n      \"visual_criteria\": \"画面有主次，不是每个颜色都同样抢。\",\n      \"student_choice_point\": \"选择对比路线或和谐路线。\",\n      \"screen_or_board_ref\": \"color_mistake_comparison_screen\",\n      \"observable_evidence\": \"学生能指出一处需要减少或增强的颜色。\",\n      \"time_hint\": \"10分钟\"\n    },\n    {\n      \"phase_name\": \"完成色彩小样\",\n      \"phase_goal\": \"用方法完成可说明的作品。\",\n      \"teacher_action\": \"巡看学生主色是否清楚，提示控制颜色数量。\",\n      \"student_action\": \"完成色彩小样并写一句配色说明。\",\n      \"teacher_question\": \"你希望别人先看到哪里？\",\n      \"materials_or_tools\": [\n        \"小样纸\",\n        \"彩笔\",\n        \"说明贴\"\n      ],\n      \"technique_step\": \"试色、铺主色、加辅助色、局部调整。\",\n      \"visual_criteria\": \"不超过三类主要颜色，画面重点清楚。\",\n      \"observable_evidence\": \"作品旁有主色和辅助色说明。\",\n      \"time_hint\": \"18分钟\"\n    }\n  ],\n  \"art_demo_block\": {\n    \"demo_purpose\": \"解决学生颜色越加越多、画面主次不清的问题。\",\n    \"student_gap\": \"学生会选喜欢的颜色，但不会控制主色和面积。\",\n    \"tools_and_materials\": [\n      \"色卡\",\n      \"试色纸\",\n      \"彩笔\"\n    ],\n    \"teacher_demo_actions\": [\n      \"选择一个感觉词\",\n      \"确定一个主色\",\n      \"加入一个辅助色\",\n      \"用小面积强调色制造重点\"\n    ],\n    \"student_observation_tasks\": [\n      \"找主色\",\n      \"找辅助色\",\n      \"判断哪个颜色面积太大\"\n    ],\n    \"technique_steps\": [\n      \"定感觉\",\n      \"选主色\",\n      \"配辅助色\",\n      \"控面积\",\n      \"看远一点再调整\"\n    ],\n    \"process_mantra\": \"先主色，再点亮。\",\n    \"common_mistakes_and_fixes\": [\n      {\n        \"mistake\": \"颜色太多\",\n        \"fix\": \"减少一类颜色，保留主色\"\n      },\n      {\n        \"mistake\": \"强调色面积太大\",\n        \"fix\": \"只放在需要被看见的位置\"\n      }\n    ],\n    \"peer_example_scaffold\": \"用两张同龄小样比较主次清楚与颜色过乱。\",\n    \"anti_copy_guidance\": \"可以借鉴配色关系，不复制同伴图案。\",\n    \"student_choice_paths\": [\n      \"强对比\",\n      \"近似和谐\",\n      \"冷暖主次\"\n    ],\n    \"pre_creation_check\": [\n      \"我的主色是什么\",\n      \"我想让别人先看哪里\",\n      \"我最多使用几类主要颜色\"\n    ],\n    \"courseware_screen_mapping\": [\n      \"feeling_word_color_screen\",\n      \"main_color_choice_screen\",\n      \"mistake_comparison_screen\"\n    ],\n    \"display_preview_mapping\": [\n      \"先主色，再点亮\",\n      \"重点在哪里\"\n    ],\n    \"assessment_link\": \"能说明主色关系，画面重点清楚，能根据反馈调整。\"\n  },\n  \"assessment_design_candidate\": {\n    \"rubric_dimensions\": [\n      \"主色关系\",\n      \"色彩秩序\",\n      \"调整痕迹\",\n      \"表达说明\"\n    ],\n    \"evidence_type\": [\n      \"work_evidence\",\n      \"process_evidence\",\n      \"self_review\"\n    ],\n    \"evidence_source\": [\n      \"试色纸\",\n      \"作品小样\",\n      \"一句配色说明\"\n    ],\n    \"teacher_observation_note\": \"观察学生是否能减少颜色而不是不断加色。\",\n    \"self_peer_teacher_review\": {\n      \"self_review\": \"我的主色是什么？\",\n      \"peer_review\": \"我第一眼看到了哪里？\",\n      \"teacher_review\": \"关注主次和调整。\"\n    },\n    \"formal_scoring\": false\n  },\n  \"teacher_confirmation_items\": [\n    \"年级和材料限制需确认\",\n    \"是否要求对比与和谐都完成需确认\"\n  ]\n}\n\n请严格按这个返回 schema 输出，字段可填实，但不要删字段：\n{\n  \"candidate_id\": \"1013R_R2B_color_contrast_harmony_001\",\n  \"case_id\": \"1013R_R1_case_color_contrast_harmony\",\n  \"candidate_only\": true,\n  \"teacher_review_required\": true,\n  \"formal_apply_intent\": false,\n  \"R36_modification_intent\": false,\n  \"runtime_connection_intent\": false,\n  \"teacher_reading_structure\": {\n    \"topic\": \"\",\n    \"big_idea\": \"\",\n    \"basic_question\": \"\",\n    \"lesson_position\": \"\",\n    \"student_output\": \"\",\n    \"materials_and_tools\": [],\n    \"technique_focus\": \"\",\n    \"teaching_process_summary\": []\n  },\n  \"classroom_script_reference\": [\n    {\n      \"phase_name\": \"\",\n      \"teacher_talk\": \"\",\n      \"teacher_question\": \"\",\n      \"student_action_cue\": \"\"\n    }\n  ],\n  \"courseware_screen_structure\": [\n    {\n      \"screen_id\": \"\",\n      \"screen_type\": \"\",\n      \"visual_payload\": [],\n      \"task_text\": \"\",\n      \"not_lesson_prose\": true\n    }\n  ],\n  \"big_screen_short_text\": [],\n  \"art_demo_block\": {\n    \"demo_purpose\": \"\",\n    \"student_gap\": \"\",\n    \"tools_and_materials\": [],\n    \"teacher_demo_actions\": [],\n    \"student_observation_tasks\": [],\n    \"technique_steps\": [],\n    \"process_mantra\": \"\",\n    \"common_mistakes_and_fixes\": [],\n    \"peer_example_scaffold\": \"\",\n    \"anti_copy_guidance\": \"\",\n    \"student_choice_paths\": [],\n    \"pre_creation_check\": [],\n    \"courseware_screen_mapping\": [],\n    \"display_preview_mapping\": [],\n    \"assessment_link\": \"\"\n  },\n  \"assessment_evidence\": {\n    \"work_evidence\": [],\n    \"process_evidence\": [],\n    \"self_peer_teacher_review\": {\n      \"self_review\": \"\",\n      \"peer_review\": \"\",\n      \"teacher_review\": \"\"\n    },\n    \"formal_scoring\": false\n  },\n  \"quality_self_check\": {\n    \"courseware_is_not_lesson_text\": true,\n    \"big_screen_text_short\": true,\n    \"demo_not_generic\": true,\n    \"assessment_has_work_and_process_evidence\": true,\n    \"no_copy_default\": true\n  },\n  \"teacher_confirmation_items\": []\n}"
+  },
+  "expected_schema": {
+    "candidate_id": "1013R_R2B_color_contrast_harmony_001",
+    "case_id": "1013R_R1_case_color_contrast_harmony",
+    "candidate_only": true,
+    "teacher_review_required": true,
+    "formal_apply_intent": false,
+    "R36_modification_intent": false,
+    "runtime_connection_intent": false,
+    "teacher_reading_structure": {
+      "topic": "",
+      "big_idea": "",
+      "basic_question": "",
+      "lesson_position": "",
+      "student_output": "",
+      "materials_and_tools": [],
+      "technique_focus": "",
+      "teaching_process_summary": []
+    },
+    "classroom_script_reference": [
+      {
+        "phase_name": "",
+        "teacher_talk": "",
+        "teacher_question": "",
+        "student_action_cue": ""
+      }
+    ],
+    "courseware_screen_structure": [
+      {
+        "screen_id": "",
+        "screen_type": "",
+        "visual_payload": [],
+        "task_text": "",
+        "not_lesson_prose": true
+      }
+    ],
+    "big_screen_short_text": [],
+    "art_demo_block": {
+      "demo_purpose": "",
+      "student_gap": "",
+      "tools_and_materials": [],
+      "teacher_demo_actions": [],
+      "student_observation_tasks": [],
+      "technique_steps": [],
+      "process_mantra": "",
+      "common_mistakes_and_fixes": [],
+      "peer_example_scaffold": "",
+      "anti_copy_guidance": "",
+      "student_choice_paths": [],
+      "pre_creation_check": [],
+      "courseware_screen_mapping": [],
+      "display_preview_mapping": [],
+      "assessment_link": ""
+    },
+    "assessment_evidence": {
+      "work_evidence": [],
+      "process_evidence": [],
+      "self_peer_teacher_review": {
+        "self_review": "",
+        "peer_review": "",
+        "teacher_review": ""
+      },
+      "formal_scoring": false
+    },
+    "quality_self_check": {
+      "courseware_is_not_lesson_text": true,
+      "big_screen_text_short": true,
+      "demo_not_generic": true,
+      "assessment_has_work_and_process_evidence": true,
+      "no_copy_default": true
+    },
+    "teacher_confirmation_items": []
+  },
+  "options": {
+    "provider": "openai_compatible",
+    "model": "MiniMax-M3",
+    "minimax_m3_thinking": "disabled",
+    "temperature": 0.16,
+    "max_tokens": 4500,
+    "timeout_ms": 90000,
+    "use_response_format": true
+  },
+  "provider_status_redacted": {
+    "success": true,
+    "provider_name": "openai_compatible",
+    "credential_source": "env",
+    "credential_available": true,
+    "token_preview": null,
+    "external_profile_used": false,
+    "openclaw_auth_profile_used": false,
+    "safe_for_preview_runtime": true,
+    "generation": {
+      "provider": "openai_compatible",
+      "provider_name": "openai_compatible",
+      "model": "MiniMax-M3",
+      "base_url": "https://api.minimaxi.com/v1",
+      "credential_source": "env",
+      "credential_available": true,
+      "token_preview": null,
+      "external_profile_used": false,
+      "openclaw_auth_profile_used": false,
+      "provider_family": "minimax",
+      "reason": "minimax_env",
+      "provider_enabled": true,
+      "fallback_to_mock_allowed": true,
+      "safe_for_preview_runtime": true
+    },
+    "vision": {
+      "enabled": true,
+      "provider": "minimax_vlm",
+      "provider_name": "minimax_vlm",
+      "model": "MiniMax-M3",
+      "base_url": "",
+      "credential_source": "env",
+      "credential_available": true,
+      "token_preview": null,
+      "external_profile_used": false,
+      "openclaw_auth_profile_used": false,
+      "provider_enabled": true,
+      "fallback_to_mock_allowed": true,
+      "safe_for_preview_runtime": true
+    }
+  },
+  "boundary": {
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "runtime_connected": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "chunks_built": false,
+    "feishu_written": false,
+    "main_project_pushed": false,
+    "formal_frontend_binding_allowed": false,
+    "R36_change_allowed": false,
+    "runtime_binding_allowed": false,
+    "provider_call_allowed_for_this_stage": true,
+    "model_call_allowed_for_this_stage": true,
+    "single_case_only": true,
+    "retry_allowed": false
+  }
+}
