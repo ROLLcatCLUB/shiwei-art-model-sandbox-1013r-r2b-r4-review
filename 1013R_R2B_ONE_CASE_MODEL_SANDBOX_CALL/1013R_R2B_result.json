@@ -1,0 +1,61 @@
+{
+  "stage": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL",
+  "status": "PASS",
+  "objective": "Run exactly one provider/model sandbox call for the selected color contrast/harmony case.",
+  "authorization_phrase": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL_AUTHORIZED",
+  "selected_case_id": "1013R_R1_case_color_contrast_harmony",
+  "boundary": {
+    "single_case_only": true,
+    "provider_call_count_limit": 1,
+    "actual_provider_call_count": 1,
+    "retry_allowed": false,
+    "provider_called": true,
+    "model_called": true,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "runtime_connected": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "chunks_built": false,
+    "feishu_written": false,
+    "main_project_pushed": false,
+    "formal_frontend_binding_allowed": false,
+    "R36_change_allowed": false,
+    "runtime_binding_allowed": false
+  },
+  "provider_meta_redacted": {
+    "provider": "openai_compatible",
+    "model": "MiniMax-M3",
+    "base_url": "https://api.minimaxi.com/v1",
+    "credential_source": "env",
+    "reasoning_split": true,
+    "latency_ms": 33278
+  },
+  "timing": {
+    "started_at_epoch": 1782109851.4054906,
+    "finished_at_epoch": 1782109884.6843324,
+    "elapsed_ms": 33279
+  },
+  "parse_success": true,
+  "quality_issue_count": 0,
+  "quality_pass_tags": [
+    "ASSESSMENT_EVIDENCE_PRESENT",
+    "BIG_SCREEN_SHORT_TEXT_OK",
+    "CLASSROOM_SCRIPT_STRUCTURED",
+    "COURSEWARE_SCREEN_SEEDS_PRESENT",
+    "DEMO_BLOCK_COMPLETE",
+    "LESSON_POSITION_PRESENT",
+    "UNIT_FIELDS_PRESENT"
+  ],
+  "outputs": [
+    "1013R_R2B_result.json",
+    "model_request_context_1013R_R2B.json",
+    "model_raw_response_1013R_R2B.json",
+    "model_parsed_candidate_1013R_R2B.json",
+    "model_output_quality_label_review_1013R_R2B.json",
+    "validate_1013R_R2B_one_case_model_sandbox_call.py"
+  ],
+  "next_if_validator_pass": "1013R_R3_MODEL_OUTPUT_FAILURE_OR_PASS_ANALYSIS",
+  "call_error": null
+}
