@@ -1,0 +1,253 @@
+{
+  "stage": "1013R_R4_PROMPT_AND_RETURN_SCHEMA_FAST_REPAIR",
+  "artifact_type": "revised_return_schema",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "candidate_id",
+      "case_id",
+      "candidate_only",
+      "teacher_review_required",
+      "formal_apply_intent",
+      "R36_modification_intent",
+      "runtime_connection_intent",
+      "teacher_reading_structure",
+      "classroom_script_reference",
+      "courseware_screen_structure",
+      "big_screen_short_text",
+      "art_demo_block",
+      "assessment_evidence",
+      "quality_self_check",
+      "teacher_confirmation_items"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "case_id": {
+        "const": "1013R_R1_case_color_contrast_harmony"
+      },
+      "candidate_only": {
+        "const": true
+      },
+      "teacher_review_required": {
+        "const": true
+      },
+      "formal_apply_intent": {
+        "const": false
+      },
+      "R36_modification_intent": {
+        "const": false
+      },
+      "runtime_connection_intent": {
+        "const": false
+      },
+      "teacher_reading_structure": {
+        "type": "object",
+        "required": [
+          "topic",
+          "big_idea",
+          "basic_question",
+          "lesson_position",
+          "student_output",
+          "materials_and_tools",
+          "technique_focus",
+          "numbered_sections"
+        ],
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "big_idea": {
+            "type": "string"
+          },
+          "basic_question": {
+            "type": "string"
+          },
+          "lesson_position": {
+            "type": "string"
+          },
+          "student_output": {
+            "type": "string"
+          },
+          "materials_and_tools": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "string"
+            }
+          },
+          "technique_focus": {
+            "type": "string"
+          },
+          "numbered_sections": {
+            "type": "array",
+            "minItems": 4,
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "classroom_script_reference": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+          "type": "object"
+        }
+      },
+      "courseware_screen_structure": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+          "type": "object",
+          "required": [
+            "screen_id",
+            "screen_type",
+            "visual_payload",
+            "task_text",
+            "not_lesson_prose"
+          ],
+          "properties": {
+            "screen_id": {
+              "type": "string"
+            },
+            "screen_type": {
+              "type": "string"
+            },
+            "visual_payload": {
+              "type": "array",
+              "minItems": 1
+            },
+            "task_text": {
+              "type": "string",
+              "maxLength": 40
+            },
+            "not_lesson_prose": {
+              "const": true
+            }
+          }
+        }
+      },
+      "big_screen_short_text": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+          "type": "string",
+          "maxLength": 40
+        }
+      },
+      "art_demo_block": {
+        "type": "object",
+        "required": [
+          "demo_purpose",
+          "student_gap",
+          "tools_and_materials",
+          "teacher_demo_actions",
+          "student_observation_tasks",
+          "technique_steps",
+          "process_mantra",
+          "common_mistakes_and_fixes",
+          "peer_example_scaffold",
+          "anti_copy_guidance",
+          "student_choice_paths",
+          "pre_creation_check"
+        ],
+        "properties": {
+          "demo_purpose": {
+            "type": "string"
+          },
+          "student_gap": {
+            "type": "string"
+          },
+          "tools_and_materials": {
+            "type": "array",
+            "minItems": 3
+          },
+          "teacher_demo_actions": {
+            "type": "array",
+            "minItems": 3
+          },
+          "student_observation_tasks": {
+            "type": "array",
+            "minItems": 3
+          },
+          "technique_steps": {
+            "type": "array",
+            "minItems": 3
+          },
+          "process_mantra": {
+            "type": "string",
+            "maxLength": 30
+          },
+          "common_mistakes_and_fixes": {
+            "type": "array",
+            "minItems": 2
+          },
+          "peer_example_scaffold": {
+            "type": "string"
+          },
+          "anti_copy_guidance": {
+            "type": "string"
+          },
+          "student_choice_paths": {
+            "type": "array",
+            "minItems": 2
+          },
+          "pre_creation_check": {
+            "type": "array",
+            "minItems": 3
+          }
+        }
+      },
+      "assessment_evidence": {
+        "type": "object",
+        "required": [
+          "work_evidence",
+          "process_evidence",
+          "self_peer_teacher_review",
+          "formal_scoring"
+        ],
+        "properties": {
+          "work_evidence": {
+            "type": "array",
+            "minItems": 2
+          },
+          "process_evidence": {
+            "type": "array",
+            "minItems": 2
+          },
+          "self_peer_teacher_review": {
+            "type": "object"
+          },
+          "formal_scoring": {
+            "const": false
+          }
+        }
+      },
+      "quality_self_check": {
+        "type": "object"
+      },
+      "teacher_confirmation_items": {
+        "type": "array"
+      }
+    }
+  },
+  "boundary": {
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "runtime_connected": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "chunks_built": false,
+    "feishu_written": false,
+    "main_project_pushed": false,
+    "formal_frontend_binding_allowed": false,
+    "R36_change_allowed": false,
+    "runtime_binding_allowed": false
+  }
+}
