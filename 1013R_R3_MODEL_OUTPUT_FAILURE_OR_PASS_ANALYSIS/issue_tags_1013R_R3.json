@@ -1,0 +1,39 @@
+{
+  "stage": "1013R_R3_MODEL_OUTPUT_FAILURE_OR_PASS_ANALYSIS",
+  "source_stage": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL",
+  "selected_case_id": "1013R_R1_case_color_contrast_harmony",
+  "parse_success": true,
+  "model_completely_unusable": false,
+  "issue_tags": [],
+  "pass_tags": [
+    "ASSESSMENT_EVIDENCE_PRESENT",
+    "BIG_SCREEN_SHORT_TEXT_OK",
+    "CLASSROOM_SCRIPT_STRUCTURED",
+    "COURSEWARE_SCREEN_SEEDS_PRESENT",
+    "DEMO_BLOCK_COMPLETE",
+    "LESSON_POSITION_PRESENT",
+    "UNIT_FIELDS_PRESENT"
+  ],
+  "category_findings": {
+    "unit_design": {
+      "pass": true
+    },
+    "lesson_design": {
+      "pass": true
+    },
+    "teaching_process": {
+      "pass": true
+    },
+    "art_demo_block": {
+      "pass": true,
+      "missing": []
+    },
+    "courseware_display": {
+      "pass": true
+    },
+    "assessment_design": {
+      "pass": true
+    }
+  },
+  "continue_to_R4": true
+}
