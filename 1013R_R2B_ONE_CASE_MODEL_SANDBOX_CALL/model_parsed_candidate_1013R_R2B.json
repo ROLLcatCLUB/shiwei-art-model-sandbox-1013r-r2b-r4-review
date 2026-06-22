@@ -1,0 +1,242 @@
+{
+  "stage": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL",
+  "parse_method": "json_load",
+  "parse_success": true,
+  "candidate": {
+    "candidate_id": "1013R_R2B_color_contrast_harmony_001",
+    "case_id": "1013R_R1_case_color_contrast_harmony",
+    "candidate_only": true,
+    "teacher_review_required": true,
+    "formal_apply_intent": false,
+    "R36_modification_intent": false,
+    "runtime_connection_intent": false,
+    "teacher_reading_structure": {
+      "topic": "色彩的对比与和谐",
+      "big_idea": "色彩关系能改变画面的秩序、情绪和观看重点。",
+      "basic_question": "怎样用少量颜色让画面既有重点又不混乱？",
+      "lesson_position": "单课：观察、比较、应用",
+      "student_output": "一张对比或和谐色彩小样，附一句配色说明。",
+      "materials_and_tools": [
+        "色卡",
+        "试色纸",
+        "水彩笔",
+        "油画棒",
+        "小样纸",
+        "说明贴"
+      ],
+      "technique_focus": "主色控制、辅助色选择、面积对比",
+      "teaching_process_summary": [
+        "一、说感觉找颜色：把感觉词匹配色卡，定主色。",
+        "二、比较对比与和谐：看强对比与近似和谐的不同效果。",
+        "三、示范主色与面积控制：拆为找主色、找辅助色、看面积三步。",
+        "四、完成色彩小样：试色、铺主色、加辅助色、局部调整。",
+        "五、互看与说主色：同桌互看，说出第一眼看到的颜色。"
+      ]
+    },
+    "classroom_script_reference": [
+      {
+        "phase_name": "说感觉找颜色",
+        "teacher_talk": "今天我们用颜色来说一种感觉。",
+        "teacher_question": "冷静、热闹、柔和，你想用哪种感觉的颜色？",
+        "student_action_cue": "请选一个感觉词，再选两张色卡。"
+      },
+      {
+        "phase_name": "比较对比与和谐",
+        "teacher_talk": "同样是这些颜色，位置不同，画面会变。",
+        "teacher_question": "如果颜色都很抢，画面会怎样？",
+        "student_action_cue": "指一指哪一组更醒目，哪一组更安静。"
+      },
+      {
+        "phase_name": "示范主色与面积",
+        "teacher_talk": "老师先选主色，再决定在哪里点亮一下。",
+        "teacher_question": "你的主色占多大，强调色放哪里？",
+        "student_action_cue": "边看边找：主色在哪里，辅助色在哪里。"
+      },
+      {
+        "phase_name": "完成色彩小样",
+        "teacher_talk": "做完别急，先远看再调整。",
+        "teacher_question": "你希望别人先看到哪里？",
+        "student_action_cue": "完成小样并写一句主色说明。"
+      },
+      {
+        "phase_name": "互看与说主色",
+        "teacher_talk": "我们把画放在桌上，看一眼对方画面。",
+        "teacher_question": "你第一眼看到了哪种颜色？",
+        "student_action_cue": "同桌互看，说出最先看到的颜色。"
+      }
+    ],
+    "courseware_screen_structure": [
+      {
+        "screen_id": "feeling_word_color_screen",
+        "screen_type": "concept_match",
+        "visual_payload": [
+          "三组感觉词：冷静/热闹/柔和",
+          "每组词旁2-3张对应色卡",
+          "色卡可点击放大"
+        ],
+        "task_text": "选一个感觉词，配2张色卡。",
+        "not_lesson_prose": true
+      },
+      {
+        "screen_id": "main_color_choice_screen",
+        "screen_type": "selection",
+        "visual_payload": [
+          "一个圆形构图轮廓",
+          "主色区高亮",
+          "辅助色区留白待填",
+          "强调色小方块示例"
+        ],
+        "task_text": "先点选一个主色，再选1个辅助色。",
+        "not_lesson_prose": true
+      },
+      {
+        "screen_id": "mistake_comparison_screen",
+        "screen_type": "compare",
+        "visual_payload": [
+          "左侧：颜色多、面积平均的错例",
+          "右侧：主色大、强调色小的正例",
+          "两图并排，箭头标注主色区"
+        ],
+        "task_text": "指出哪张更乱，并说原因。",
+        "not_lesson_prose": true
+      },
+      {
+        "screen_id": "contrast_vs_harmony_screen",
+        "screen_type": "compare",
+        "visual_payload": [
+          "同图形两版配色",
+          "上：红绿强对比版",
+          "下：蓝绿近似和谐版",
+          "小标签：醒目/安静"
+        ],
+        "task_text": "判断哪组更醒目，哪组更安静。",
+        "not_lesson_prose": true
+      },
+      {
+        "screen_id": "pre_creation_check_screen",
+        "screen_type": "checklist",
+        "visual_payload": [
+          "三行问题卡片",
+          "主色是什么？",
+          "想让人先看哪里？",
+          "最多用几类颜色？"
+        ],
+        "task_text": "开工前自问三句。",
+        "not_lesson_prose": true
+      },
+      {
+        "screen_id": "share_endpoint_screen",
+        "screen_type": "share_prompt",
+        "visual_payload": [
+          "同桌小样摆放示意",
+          "气泡：第一眼看到_____",
+          "展示板小预览"
+        ],
+        "task_text": "同桌互看，说出第一眼颜色。",
+        "not_lesson_prose": true
+      }
+    ],
+    "big_screen_short_text": [
+      "先定主色，再点亮",
+      "主色一眼能看见",
+      "强调色只放一点",
+      "最多三类主要颜色",
+      "远看一次再调整",
+      "颜色多不等于好看"
+    ],
+    "art_demo_block": {
+      "demo_purpose": "解决学生颜色越加越多、画面主次不清的问题。",
+      "student_gap": "学生会选喜欢的颜色，但不会控制主色和面积。",
+      "tools_and_materials": [
+        "色卡",
+        "试色纸",
+        "彩笔"
+      ],
+      "teacher_demo_actions": [
+        "选一个感觉词并在板上写出",
+        "从色卡中挑一个主色贴在大圆形区",
+        "再加一个辅助色贴在旁边小区域",
+        "用小方块表示强调色，贴在画面中一个位置",
+        "远看一次，指着说：主色在哪里、点亮在哪里"
+      ],
+      "student_observation_tasks": [
+        "找主色：占最大面积的是哪个",
+        "找辅助色：和主色挨着的是哪个",
+        "判断面积：哪个颜色看起来太大或太碎"
+      ],
+      "technique_steps": [
+        "定感觉：选一个词",
+        "选主色：占最大面积",
+        "配辅助色：靠近主色",
+        "控面积：强调色小",
+        "远看调整：重点清楚吗"
+      ],
+      "process_mantra": "先主色，再点亮。",
+      "common_mistakes_and_fixes": [
+        {
+          "mistake": "颜色加到四五种以上",
+          "fix": "保留主色，去掉一类其他颜色"
+        },
+        {
+          "mistake": "强调色面积太大",
+          "fix": "强调色只放一点，放在要看见的地方"
+        },
+        {
+          "mistake": "主色和辅助色分不开",
+          "fix": "让主色面积明显大于辅助色"
+        }
+      ],
+      "peer_example_scaffold": "用两张同龄小样并排：一张主色清楚，一张颜色过乱，请同学指一指主色在哪里。",
+      "anti_copy_guidance": "可以借鉴主次关系，不复制同伴的图形和颜色搭配。",
+      "student_choice_paths": [
+        "强对比路线：色相对比明显",
+        "近似和谐路线：同色系或邻近色",
+        "冷暖主次路线：冷色为主，暖色点亮"
+      ],
+      "pre_creation_check": [
+        "我的主色是什么",
+        "我想让别人先看哪里",
+        "我最多用几类主要颜色"
+      ],
+      "courseware_screen_mapping": [
+        "feeling_word_color_screen",
+        "main_color_choice_screen",
+        "mistake_comparison_screen"
+      ],
+      "display_preview_mapping": [
+        "先主色，再点亮",
+        "重点在哪里"
+      ],
+      "assessment_link": "能说明主色关系，画面重点清楚，能根据反馈调整。"
+    },
+    "assessment_evidence": {
+      "work_evidence": [
+        "色彩小样一张",
+        "小样旁一句配色说明",
+        "试色纸（主色与辅助色痕迹）"
+      ],
+      "process_evidence": [
+        "学生口述主色选择理由",
+        "学生指出同伴画面主色位置",
+        "学生根据远看反馈调整的痕迹"
+      ],
+      "self_peer_teacher_review": {
+        "self_review": "我的主色是什么？我最想让人先看哪里？",
+        "peer_review": "我第一眼看到了哪种颜色？为什么？",
+        "teacher_review": "关注主次是否清楚，颜色数量是否受控，能否说明选择。"
+      },
+      "formal_scoring": false
+    },
+    "quality_self_check": {
+      "courseware_is_not_lesson_text": true,
+      "big_screen_text_short": true,
+      "demo_not_generic": true,
+      "assessment_has_work_and_process_evidence": true,
+      "no_copy_default": true
+    },
+    "teacher_confirmation_items": [
+      "年级和材料限制需确认",
+      "是否要求对比与和谐都完成需确认"
+    ]
+  }
+}
