@@ -1,0 +1,56 @@
+{
+  "stage": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL",
+  "selected_case_id": "1013R_R1_case_color_contrast_harmony",
+  "provider_call_count": 1,
+  "retry_allowed": false,
+  "parse_method": "json_load",
+  "parse_success": true,
+  "model_completely_unusable": false,
+  "repair_needed": false,
+  "main_problem_type": "minor_or_no_issue",
+  "issue_tags": [],
+  "pass_tags": [
+    "ASSESSMENT_EVIDENCE_PRESENT",
+    "BIG_SCREEN_SHORT_TEXT_OK",
+    "CLASSROOM_SCRIPT_STRUCTURED",
+    "COURSEWARE_SCREEN_SEEDS_PRESENT",
+    "DEMO_BLOCK_COMPLETE",
+    "LESSON_POSITION_PRESENT",
+    "UNIT_FIELDS_PRESENT"
+  ],
+  "category_findings": {
+    "unit_design": {
+      "pass": true
+    },
+    "lesson_design": {
+      "pass": true
+    },
+    "teaching_process": {
+      "pass": true
+    },
+    "art_demo_block": {
+      "pass": true,
+      "missing": []
+    },
+    "courseware_display": {
+      "pass": true
+    },
+    "assessment_design": {
+      "pass": true
+    }
+  },
+  "boundary": {
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "runtime_connected": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "chunks_built": false,
+    "feishu_written": false,
+    "main_project_pushed": false,
+    "formal_frontend_binding_allowed": false,
+    "R36_change_allowed": false,
+    "runtime_binding_allowed": false
+  }
+}
