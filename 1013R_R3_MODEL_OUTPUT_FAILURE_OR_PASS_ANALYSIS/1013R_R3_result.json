@@ -1,0 +1,36 @@
+{
+  "stage": "1013R_R3_MODEL_OUTPUT_FAILURE_OR_PASS_ANALYSIS",
+  "status": "PASS",
+  "source_stage": "1013R_R2B_ONE_CASE_MODEL_SANDBOX_CALL",
+  "selected_case_id": "1013R_R1_case_color_contrast_harmony",
+  "boundary": {
+    "provider_called": false,
+    "model_called": false,
+    "formal_apply_performed": false,
+    "R36_modified": false,
+    "runtime_connected": false,
+    "database_written": false,
+    "memory_written": false,
+    "vector_index_written": false,
+    "chunks_built": false,
+    "feishu_written": false,
+    "main_project_pushed": false,
+    "formal_frontend_binding_allowed": false,
+    "R36_change_allowed": false,
+    "runtime_binding_allowed": false
+  },
+  "parse_success": true,
+  "model_completely_unusable": false,
+  "issue_count": 0,
+  "model_output_passed_gate": true,
+  "continue_to_R4": true,
+  "continue_to_R4_reason": "No blocking issue tags were detected; R4 still proceeds as prompt/schema stabilization so the good output shape becomes machine-checkable.",
+  "outputs": [
+    "1013R_R3_result.json",
+    "model_output_gap_analysis_1013R_R3.md",
+    "issue_tags_1013R_R3.json",
+    "prompt_repair_targets_1013R_R3.json",
+    "schema_repair_targets_1013R_R3.json",
+    "validate_1013R_R3_model_output_failure_or_pass_analysis.py"
+  ]
+}
